@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-dash",
-  "description": "A Dash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-terracoin",
+  "description": "A Terracoin blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/dashevo/insight-api-dash.git",
+  "repository": "git://github.com/TheSin-/insight-api-terracoin.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api-dash/issues"
+    "url": "https://github.com/TheSin-/insight-api-terracoin/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api-dash",
+  "homepage": "https://github.com/TheSin-/insight-api-terracoin",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "terracoin api",
     "blockchain api",
     "json",
-    "bitcore-dash"
+    "bitcore-terracoin"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.15.2",
-    "bitcore-message-dash": "^1.0.9",
+    "bitcore-lib-terracoin": "TheSin-/bitcore-lib-terracoin",
+    "bitcore-message-terracoin": "TheSin-/bitcore-message-terracoin",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",
