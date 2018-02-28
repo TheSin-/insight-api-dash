@@ -11,8 +11,8 @@
       alt="API stability" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/TheSin-/insight-api-terracoin">
-    <img src="https://img.shields.io/travis/TheSin-/insight-api-terracoin/master.svg?style=flat-square" alt="Build Status" />
+  <a href="https://travis-ci.org/terracoin/insight-api-terracoin">
+    <img src="https://img.shields.io/travis/terracoin/insight-api-terracoin/master.svg?style=flat-square" alt="Build Status" />
   </a>
   <!-- NPM version -->
   <a href="https://npmjs.org/package/insight-api-terracoin">
@@ -21,7 +21,7 @@
 </div>
 
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/TheSin-/insight-ui-terracoin.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/terracoin/insight-ui-terracoin.
 
 ## Table of Content
 - [Getting Started](#getting-started)
@@ -55,7 +55,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 - [Notes on Upgrading from v0.3](#notes-on-upgrading-from-v03)
 - [Notes on Upgrading from v0.2](#notes-on-upgrading-from-v02)
 - [Resources](#resources)
-- [License](https://github.com/TheSin-/insight-api-terracoin/blob/master/LICENSE)
+- [License](https://github.com/terracoin/insight-api-terracoin/blob/master/LICENSE)
 
 ## Getting Started
 
@@ -71,7 +71,7 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 ### Prerequisites
 
-- [Bitcore Node Terracoin 3.x](https://github.com/TheSin-/bitcore-node-terracoin)
+- [Bitcore Node Terracoin 3.x](https://github.com/terracoin/bitcore-node-terracoin)
 
 **Note:** You can use an existing Terracoin data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `terracoin.conf`, as well as a few other additional fields.
 
