@@ -238,5 +238,19 @@
     "searchStrings":[
       "/BTCC/"
     ]
+  },
+  {
+    "poolName":"zpool",
+    "url":"http://www.zpool.ca/",
+    "searchStrings":[
+      "www.zpool.ca"
+    ]
+  },
+  {
+    "poolName":"BTC.TOP",
+    "url":"http://btc.top/",
+    "searchStrings":[
+      "/BTC.TOP/"
+    ]
   }
 ]
