@@ -1,7 +1,7 @@
 {
   "name": "insight-api-terracoin",
   "description": "A Terracoin blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "repository": "git://github.com/terracoin/insight-api-terracoin.git",
   "contributors": [
     {
@@ -61,7 +61,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-terracoin": "^0.15.2",
+    "bitcore-lib-terracoin": "^0.15.3",
     "bitcore-message-terracoin": "^1.0.9",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
