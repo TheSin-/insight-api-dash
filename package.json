@@ -61,7 +61,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-terracoin": "^0.15.3",
+    "bitcore-lib-terracoin": "^0.15.4",
     "bitcore-message-terracoin": "^1.0.9",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
