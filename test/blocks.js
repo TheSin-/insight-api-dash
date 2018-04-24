@@ -60,15 +60,13 @@ describe('Blocks', function() {
       'time': 1440987503,
       'nonce': 1868753784,
       'bits': '1a0cf267',
-      'difficulty': NaN,
+      'difficulty': 1295829.93087696,
       'chainwork': '0000000000000000000000000000000000000000000000054626b1839ade284a',
       'previousblockhash': '00000000000001a55f3214e9172eb34b20e0bc5bd6b8007f3f149fca2c8991a4',
       'nextblockhash': '000000000001e866a8057cde0c650796cb8a59e0e6038dc31c69d7ca6649627d',
       'reward': 20,
       'isMainChain': true,
       'poolInfo': {
-        'poolName': '\u0003�%\b\u0000����U�&6\u0000\u0000\tcgminer42\b�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
-        'url': ''
       }
     };
 
@@ -127,8 +125,8 @@ describe('Blocks', function() {
       var next = function() {
         should.exist(req.block);
         var block = req.block;
-        req.block.poolInfo.poolName.should.equal('\u0003ź\u0005七彩神仙鱼\u0011\u0001�\u000f\u0003�¬�4�!Cp���\u0015~�=-w"\u001f��#Ჺ\u0002\u0000\u0000\u0000🐟/BIP100/Mined by yasiekosw\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000');
-        req.block.poolInfo.url.should.equal('');
+        req.block.poolInfo.poolName.should.equal('Discus Fish');
+        req.block.poolInfo.url.should.equal('http://f2pool.com/');
         done();
       };
 
@@ -150,8 +148,8 @@ describe('Blocks', function() {
           'time': 1440978683,
           'txlength': 1,
           'poolInfo': {
-            'poolName': '\u0003�%\b\u001bMined by AntPool +�S\u0007 U��\u0001\u0003\u0000\u0000\u0000�\u0005\u0000\u0000',
-            'url': ''
+            'poolName': 'AntMiner',
+            'url': 'https://bitmaintech.com/'
           }
         },
         {
@@ -161,8 +159,8 @@ describe('Blocks', function() {
           'time': 1440977479,
           'txlength': 1,
           'poolInfo': {
-            'poolName': '\u0003�%\b\u001bMined by AntPool +�S\u0007 U�G\u0001\u0000\u0000\u0000\u0000��\u0000\u0000',
-            'url': ''
+            'poolName': 'AntMiner',
+            'url': 'https://bitmaintech.com/'
           }
         }
       ],
