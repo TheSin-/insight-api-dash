@@ -15,6 +15,7 @@ describe('Spork', function () {
 				"SPORK_5_SUPERBLOCKS_ENABLED": 4070908800,
 				"SPORK_6_RECONSIDER_BLOCKS": 0,
 				"SPORK_7_REQUIRE_SENTINEL_FLAG": 4070908800
+				"SPORK_8_MASTERNODE_PAY_PROTO_MIN": 70206
 			}
 		};
 		var node = {
@@ -40,6 +41,7 @@ describe('Spork', function () {
 					should.exist(data.sporks.SPORK_5_SUPERBLOCKS_ENABLED);
 					should.exist(data.sporks.SPORK_6_RECONSIDER_BLOCKS);
 					should.exist(data.sporks.SPORK_7_REQUIRE_SENTINEL_FLAG);
+					should.exist(data.sporks.SPORK_8_MASTERNODE_PAY_PROTO_MIN);
 					done();
 				}
 			};
